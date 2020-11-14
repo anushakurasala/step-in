@@ -22,4 +22,4 @@ jobs:
     - name: make test
       run: |
         make test -C implementation/
-        valgrind Implementation/build/Test_RPS_game.out
+        valgrind Implementation/build/Test_GAME.out
